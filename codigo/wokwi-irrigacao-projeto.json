@@ -1,0 +1,91 @@
+{
+    "version": 1,
+    "author": "Danilo Oliveira",
+    "editor": "chatgpt",
+    "parts": [
+      {
+        "type": "wokwi-esp32-devkit-v1",
+        "id": "esp32",
+        "top": -20,
+        "left": 100,
+        "attrs": {}
+      },
+      {
+        "type": "wokwi-analog-sensor",
+        "id": "soilSensor",
+        "top": 120,
+        "left": 0,
+        "attrs": {
+          "label": "Umidade do Solo"
+        }
+      },
+      {
+        "type": "wokwi-dht22",
+        "id": "dht",
+        "top": 120,
+        "left": 200,
+        "attrs": {}
+      },
+      {
+        "type": "wokwi-led",
+        "id": "rele",
+        "top": 120,
+        "left": 350,
+        "attrs": {
+          "color": "red",
+          "label": "V\u00e1lvula"
+        }
+      }
+    ],
+    "connections": [
+      [
+        "soilSensor:VCC",
+        "esp32:3V3",
+        "red",
+        []
+      ],
+      [
+        "soilSensor:GND",
+        "esp32:GND.1",
+        "black",
+        []
+      ],
+      [
+        "soilSensor:SIG",
+        "esp32:34",
+        "blue",
+        []
+      ],
+      [
+        "dht:VCC",
+        "esp32:3V3",
+        "red",
+        []
+      ],
+      [
+        "dht:GND",
+        "esp32:GND.2",
+        "black",
+        []
+      ],
+      [
+        "dht:SIGNAL",
+        "esp32:4",
+        "green",
+        []
+      ],
+      [
+        "rele:A",
+        "esp32:2",
+        "green",
+        []
+      ],
+      [
+        "rele:C",
+        "esp32:GND.2",
+        "black",
+        []
+      ]
+    ],
+    "dependencies": {}
+  }
