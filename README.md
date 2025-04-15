@@ -46,10 +46,10 @@ O código completo desenvolvido em C/C++ para a plataforma Arduino está dispon�
 
 A simulação do sistema pode ser acessada pelo seguinte link:
 
-🔗 [Acessar simulação no Wokwi]([https://wokwi.com/projects/427968689341007873])
+🔗 [Acessar simulação no Wokwi](https://wokwi.com/projects/427968689341007873)
 
 ## 📽️ Vídeo Demonstração
 
 A apresentação completa do projeto com identificação, explicação oral e funcionamento com MQTT está disponível no YouTube:
 
-🎥 [Assista ao vídeo]([https://youtu.be/8CQ8Y3AEKDM])
+🎥 [Assista ao vídeo](https://youtu.be/8CQ8Y3AEKDM)
