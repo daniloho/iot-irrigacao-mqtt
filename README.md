@@ -52,4 +52,4 @@ A simulação do sistema pode ser acessada pelo seguinte link:
 
 A apresentação completa do projeto com identificação, explicação oral e funcionamento com MQTT está disponível no YouTube:
 
-🎥 [Assista ao vídeo](https://youtu.be/SEU-LINK-AQUI)
+🎥 [Assista ao vídeo]([https://youtu.be/SEU-LINK-AQUI](https://youtu.be/8CQ8Y3AEKDM))
